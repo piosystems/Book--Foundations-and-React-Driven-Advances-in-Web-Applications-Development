@@ -1,0 +1,27 @@
+{
+  "name": "book--foundations-and-react-driven-advances-in-web-applications-development",
+  "version": "1.0.0",
+  "description": "Book: Foundations and React-Driven Advances in Web Applications Development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piosystems/Book--Foundations-and-React-Driven-Advances-in-Web-Applications-Development.git"
+  },
+  "keywords": [
+    "Git",
+    "JavaScript",
+    "NodeJS"
+  ],
+  "author": "Pius Onobhayedo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piosystems/Book--Foundations-and-React-Driven-Advances-in-Web-Applications-Development/issues"
+  },
+  "homepage": "https://github.com/piosystems/Book--Foundations-and-React-Driven-Advances-in-Web-Applications-Development#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
+}
