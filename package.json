@@ -23,12 +23,18 @@
   },
   "homepage": "https://github.com/piosystems/Book--Foundations-and-React-Driven-Advances-in-Web-Applications-Development#readme",
   "dependencies": {
-    "@babel/core": "^7.4.0",
-    "@babel/preset-env": "^7.4.2",
+    "readline-sync": "^1.4.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-typescript": "^7.3.3",
     "babel-loader": "^8.0.5",
-    "readline-sync": "^1.4.9",
+    "babel-polyfill": "^6.26.0",
+    "typescript": "^3.4.3",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
   }
-  
 }
