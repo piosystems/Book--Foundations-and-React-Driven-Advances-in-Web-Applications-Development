@@ -2,9 +2,9 @@ export interface PersonData {
     firstName: string,
     lastName: string,
     gender: number,
-    height?: any,
+    height?: number,
     hobbies: string[],
-    birthday?: any,
+    birthday?: Date,
     isAlive: boolean
 }
 
@@ -25,8 +25,8 @@ export interface StudentData{
     programOfStudy: string,
     department: string,
     yearOfEntry: Date,
-    modeOfEntry?: any,
-    nextOfKin?: any,
-    emailAddress?: any,
-    phoneNumber?: any
+    modeOfEntry?: string,
+    nextOfKin?: string,
+    emailAddress?: string,
+    phoneNumber?: string
 }
