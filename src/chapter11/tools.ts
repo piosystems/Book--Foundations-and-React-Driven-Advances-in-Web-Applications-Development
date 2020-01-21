@@ -52,8 +52,8 @@ export class Person{
     birthday: Date;
     isAlive: boolean;
 
-    constructor(firstName: string, lastName: string, gender: string, height: any = undefined, 
-        hobbies: string[] = [], birthday: any = undefined, isAlive: boolean = true){
+    constructor(firstName: string, lastName: string, gender: string, height: number | undefined = undefined, 
+        hobbies: string[] = [], birthday: Date | undefined = undefined, isAlive: boolean = true){
         this.firstName = firstName;
         this.lastName = lastName;
         this.gender = gender;
