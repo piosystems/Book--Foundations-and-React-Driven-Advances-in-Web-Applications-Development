@@ -25,7 +25,7 @@ export interface StudentData{
     programOfStudy: string,
     department: string,
     yearOfEntry: Date,
-    modeOfEntry?: string,
+    modeOfEntry?: number,
     nextOfKin?: string,
     emailAddress?: string,
     phoneNumber?: string
