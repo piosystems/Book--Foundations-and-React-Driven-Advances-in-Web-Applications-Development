@@ -16,24 +16,24 @@ let isAlive = true;
 
 
 /*
-let person1 = new Person(firstName, lastName, gender, height, 
+const person1 = new Person(firstName, lastName, gender, height, 
     hobbies, birthday, isAlive)
 
-let person2 = new Person("Mary","Joseph","female");
+const person2 = new Person("Mary","Joseph","female");
 */
 
 /* PersonData with options.
-let person1Data: PersonData = {
+const person1Data: PersonData = {
     firstName: "pius",
     lastName: "onobhayedo",
     gender: Gender.male,
-    height: "1.5",
+    height: 1.5,
     hobbies: [],
     birthday: new Date(1900,10,10),
     isAlive: true
 }
 
-let person2Data: PersonData = {
+const person2Data: PersonData = {
     firstName: "Mary",
     lastName: "Joseph",
     gender: Gender.female,
@@ -41,8 +41,8 @@ let person2Data: PersonData = {
     isAlive: true
 }
 
-let person1 = new Person(person1Data);
-let person2 = new Person(person2Data);
+const person1 = new Person(person1Data);
+const person2 = new Person(person2Data);
 
 log(`Person 1 is ${person1.height} whose height is ${person1.height} and birthday is ${person1.birthday.toLocaleDateString()}`);
 
