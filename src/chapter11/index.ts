@@ -5,13 +5,13 @@ import {PersonData, StudentData, Gender, ModeOfEntry} from './type-definitions'
 
 //Accessing object properties
 /*
-let firstName = "Pius";
-let lastName = "Onobhayedo";
-let gender = "male";
-let height = 1.7;
-let hobbies = ['Tennis','Programming'];
-let birthday = new Date(1900,4,5);
-let isAlive = true;
+const firstName = "Pius";
+const lastName = "Onobhayedo";
+const gender = "male";
+const height = 1.7;
+const hobbies = ['Tennis','Programming'];
+const birthday = new Date(1900,4,5);
+const isAlive = true;
 */
 
 
